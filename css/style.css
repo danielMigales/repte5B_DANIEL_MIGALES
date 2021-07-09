@@ -1,0 +1,93 @@
+body,input,label{
+    font-family:'Montserrat';
+}
+input{
+    width:200px;
+    padding:7px 9px;
+    border-radius:6px;
+    outline:none;
+    border:1px dotted crimson;
+    font-size:1.3em;			
+    font-weight:bold;
+    color:black;
+    box-sizing:border-box;
+    background-color:rgba(255,255,255,0.3);	
+}
+::placeholder{
+    color:white;
+    font-size:0.9em;
+}
+label{
+    color:white;
+    font-size:1.1em;
+    margin-top:7px;
+    margin-right:10px;
+}
+#lista1{
+    position:relative;			
+    width:200px;
+    height:200px;
+    color:black;
+    border-radius:6px;
+    padding:5px;
+    border:1px dotted crimson;
+    margin:-65px 0 0 86px;
+    box-sizing:border-box;
+    background-color:rgba(255,255,255,0.3);	
+}
+#lista2{
+    width:30px;			
+    color:white;
+    border-radius:4px;
+    padding:4px;			
+    margin:4px 0 0 249px;
+    background-color:crimson;
+    text-align:right;
+    
+}
+.botones{
+    background-color:crimson;
+    color:white;
+    outline:none;
+    border:1px solid crimson;
+    padding:8px 18px;
+    border-radius:5px;
+    font-size:0.9em;
+    cursor:pointer;	
+    box-shadow:0 0 10px white inset;
+    margin-bottom:3px;
+}
+.botones:hover{
+    background-color:white;
+    color:crimson;
+}
+section{
+    position:relative;
+    display:flex;
+    align-items:flex-start;
+}
+nav{
+    margin-left:10px;
+    display:flex;
+    flex-direction:column;
+}
+#circulo{
+    width:370px;
+    height:370px;
+    border-radius:50%;
+    background-color:crimson;
+    position:absolute;
+    top:-110px;
+    left:-125px;
+}
+main{
+    border:1px dotted crimson;
+    width:400px;
+    overflow:hidden;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    border-radius:9px;
+    padding:22px;
+}
